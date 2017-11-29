@@ -476,7 +476,6 @@ local function onTradeRequest(cid)
 	return true
 end
 
-npcHandler:setMessage(MESSAGE_SENDTRADE, "Take all the time you need to decide what you want!")
 npcHandler:setCallback(CALLBACK_ONTRADEREQUEST, onTradeRequest)
 npcHandler:setCallback(CALLBACK_GREET, greetCallback)
 npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, creatureSayCallback)
